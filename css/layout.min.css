@@ -136,7 +136,7 @@ h5,
 h6 {
     font-weight: 700;
     color: #515769;
-    margin: 15px 0 0 15px
+    margin: 0 0 15px
 }
 
 h1>a,
@@ -370,12 +370,12 @@ fieldset[disabled] .btn-theme {
 
 .promo-block {
     background: #cdcdcd;
-    padding-top: 165px;
+    padding-top: 140px;
     height: 340px;
 }
 
 .promo-block .promo-block-title {
-    font-size: 55px;
+    font-size: 35px;
     line-height: 1
 }
 
