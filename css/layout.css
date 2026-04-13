@@ -389,6 +389,24 @@ fieldset[disabled] .btn-theme {
 /*------------------------------------------------------------------
   	[Service]
 ------------------------------------------------------------------*/
+#portfolio .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+#portfolio .col-sm-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+#portfolio .service {
+    width: 100%;
+    flex: 1;
+    min-height: 220px;
+}
+
+
 .service {
   background: #fff;
   padding: 30px;
@@ -402,7 +420,10 @@ fieldset[disabled] .btn-theme {
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  margin: 0 0 30px;
 }
+
+
 
 .service .service-icon {
   display: block;
@@ -415,7 +436,7 @@ fieldset[disabled] .btn-theme {
   opacity: 0;
   -webkit-transform: translate3d(0, -100%, 0);
   -moz-transform: translate3d(0, -100%, 0);
-  transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -5px, 0);
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -428,6 +449,15 @@ fieldset[disabled] .btn-theme {
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+#portfolio .service:hover .service-info {
+    transform: translate3d(0, -5px, 0) !important;
+}
+
+#portfolio .service:hover .service-element {
+    opacity: 1 !important;
+    transform: translate3d(0, 0, 0) !important;
 }
 
 /*------------------------------------------------------------------
@@ -1329,3 +1359,4 @@ fieldset[disabled] .btn-theme {
     text-align: right;
   }
 }
+
