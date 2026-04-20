@@ -1287,7 +1287,7 @@ fieldset[disabled] .btn-theme {
 
  .resume-section {
       max-width: 800px;
-      margin: 40px auto;
+      margin: -10px auto;
       background: #fff;
       border-radius: 16px;
       box-shadow: 0 4px 16px rgba(0,0,0,0.08);
