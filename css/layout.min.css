@@ -370,28 +370,57 @@ fieldset[disabled] .btn-theme {
 
 .promo-block {
     background: #cdcdcd;
-    padding-top: 140px;
-    height: 340px;
+    padding-top: 110px;
+    padding-bottom: 60px;
+}
+
+.promo-block .hero-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .promo-block .promo-block-title {
-    font-size: 35px;
-    line-height: 1
+    font-size: 46px;
+    line-height: 1.15;
+    font-weight: 700;
+    margin-bottom: 16px;
 }
 
 @media (max-width:480px) {
     .promo-block .promo-block-title {
-        font-size: 50px
+        font-size: 32px
     }
 }
 
 .promo-block .promo-block-text {
-    font-size: 20px
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.promo-block .promo-block-role {
+    margin-bottom: 28px;
+}
+
+.promo-block .promo-block-cert-label {
+    font-size: 13px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: #6b6f75;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.promo-block .promo-block-cert-box {
+    display: inline-block;
+    background: #f1f1f1;
+    border-radius: 12px;
+    padding: 18px 22px;
 }
 
 .promo-block .promo-block-img-wrap {
     position: relative;
-    height: 400px;
+    height: 340px;
     margin-bottom: 15px;
 }
 
